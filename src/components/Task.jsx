@@ -4,7 +4,6 @@ import React, {useState} from "react";
 const Task = (props) => {
     const [completed, setCompleted] = useState(false); 
 
-
   return (
     <div key={props.task.id}>
       <h1 className={completed ? "completed" : ""}>{props.task.name}</h1>
