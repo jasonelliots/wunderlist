@@ -12,10 +12,11 @@ import "./component.css";
 
 const TaskList = () => {
 
+    // destructuring the passed object 
     const { taskList, setRefresh } = useContext(TaskContext);
 
     const [editing, setEditing] = useState(false);
-    const [taskToEdit, setTaskToEdit] = useState({}); // update this object with correct shape
+    const [taskToEdit, setTaskToEdit] = useState({}); 
     const [searchInput, setSearchInput] = useState("");
 
     const deleteTask = (task) => {
