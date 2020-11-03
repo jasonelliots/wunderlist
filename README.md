@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Time management application allowing users to create and account and save and update to-do lists.
 
 ## Available Scripts
 
